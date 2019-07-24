@@ -36,10 +36,15 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-common-java8:2.0.0"
     implementation "androidx.lifecycle:lifecycle-reactivestreams:2.0.0"
 
-
     /*########################### ReactiveX ######################################*/
     implementation "io.reactivex.rxjava2:rxandroid:2.0.2"
     implementation "io.reactivex.rxjava2:rxjava:2.1.9"
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+
+    //########### ROOM DATABASE ORM ##########
+    implementation "android.arch.persistence.room:runtime:1.1.1"
+    annotationProcessor "android.arch.persistence.room:compiler:1.1.1"
+    implementation "android.arch.persistence.room:rxjava2:1.1.1"
 
 }
